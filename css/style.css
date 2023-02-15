@@ -1,0 +1,203 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General definitions */
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: #fcfaf9;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 165px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  width: 333px;
+  height: 61px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+/* Section: Main */
+main {
+  height: 1600px;
+  background: url("./../img/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-position: -270px -249px;
+  position: relative;
+}
+
+main > header {
+  position: absolute;
+  top: 221px;
+}
+
+main > header > h1 {
+  max-width: 1015px;
+}
+
+main > header > p {
+  margin-top: 40px;
+  max-width: 825px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+main article {
+  position: absolute;
+  left: 734px;
+  top: 950px;
+  width: 446px;
+  height: 625px;
+  background: #fa7453;
+  padding-left: 54px;
+  color: #fcfaf9;
+  border-radius: 12px;
+  z-index: 1;
+}
+
+main article header {
+  margin-top: 58px;
+}
+
+main article header p {
+  margin-top: 22px;
+  max-width: 333px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+main article .price {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 39px;
+}
+
+main article .price .value {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+}
+
+main article .price .period {
+  line-height: 32px;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+}
+
+main article .btns {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 46px;
+}
+
+main article .btns .btn-1 {
+  background: #191826;
+  color: #fcfaf9;
+}
+
+main article .btns .btn-1:hover {
+  background: #66e2dc;
+}
+
+main article .btns .btn-2 {
+  background: #fcfaf9;
+  color: #191826;
+}
+
+main article .btns .btn-2:hover {
+  background: #ffb964;
+}
+
+/* Section: Main (Images) */
+main aside .logo {
+  position: absolute;
+  top: 62px;
+}
+
+main aside .bg-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+main aside .bg-2 {
+  position: absolute;
+  top: 820px;
+  left: 501px;
+}
+
+main aside .app {
+  position: absolute;
+  top: 647px;
+  left: 267px;
+  width: 312px;
+}
+
+main aside .box {
+  position: absolute;
+  top: 860px;
+  width: 1110px;
+  height: 600px;
+  background: #191826;
+  border-radius: 12px;
+  z-index: -1;
+}
+
+/* Section: Footer */
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  margin: 80px 0 80px 0;
+}
+
+footer .logo {
+  height: 100%;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+footer .message {
+  max-width: 366px;
+}
+
+footer .icons {
+  align-self: center;
+  display: flex;
+  gap: 20px;
+}
